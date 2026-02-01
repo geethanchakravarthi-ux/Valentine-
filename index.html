@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>For Brindhaa ❤️</title>
+<style>
+body{
+  background:pink;
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  font-family:Arial;
+  overflow:hidden;
+  text-align:center;
+}
+button{
+  padding:10px 25px;
+  font-size:18px;
+  margin:10px;
+}
+#no{ position:absolute; }
+</style>
+</head>
+
+<body>
+
+<h1>Brindhaa ❤️<br>Will you be my Valentine?</h1>
+
+<button onclick="alert('Yay Brindhaa ❤️')">Yes 😍</button>
+<button id="no">No 😢</button>
+
+<script>
+const no = document.getElementById("no");
+
+no.addEventListener("mouseover",()=>{
+  no.style.left=Math.random()*window.innerWidth+"px";
+  no.style.top=Math.random()*window.innerHeight+"px";
+});
+</script>
+
+</body>
+</html>
